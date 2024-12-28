@@ -7,10 +7,8 @@
       header { background-color: #afa; }
       header nav ul { text-align: right; }
       header nav ul li { display: inline; }
-      main nav { width: 40%; float: left; background-color: #aaf;
-      }
-      main div#content { width: 60%; float: left; background-color: #aff;
-      }
+      nav#sec-nav { width: 40%; float: left; background-color: #aaf;}
+      div#content { width: 60%; float: left; background-color: #aff;}
       footer { clear: both; background-color: #faa; }
       footer nav ul { text-align: center; }
       footer nav ul li { display: inline; }
@@ -18,7 +16,6 @@
     <title>IPWA01</title>
   </head>
   <body>
-    <h1>IPWA01</h1>
     <header>
         <nav>
           <ul>
@@ -35,7 +32,7 @@
           </ul>
         </nav>
       </header>
-      <nav>
+      <nav id="sec-nav">
         <ul>
           <li><a href="home.html">Homepage</a></li>
           <li><a href="services.html">Unsere Leistungen</a></li>
@@ -44,34 +41,37 @@
           <li><a href="about.html">Über uns</a></li>
         </ul>
       </nav>
-      <section>
-        <h1>Willkommen auf der Homepage von WebAppStartup</h1>
-        <p>
-          Wir konzipieren und implementieren fantastische Web-Applikationen!
-        </p>
-        <table>
-            <thead>
-              <tr>
-                <th>Leistung</th>
-                <th>Einzelpreis</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Stundensatz Beratung</td>
-                <td>&euro; 100,--</td>
-              </tr>
-              <tr>
-                <td>Tagessatz Beratung</td>
-                <td>&euro; 600,--</td>
-              </tr>
-              <tr>
-                <td>Homepage Baukasten pro Monat</td>
-                <td>&euro; 1.000,--</td>
-              </tr>
-            </tbody>
-          </table>
-      </section>
+      <div id="content">
+        <section>
+           
+            <h1>Willkommen auf der Homepage von WebAppStartup</h1>
+            <p>
+            Wir konzipieren und implementieren fantastische Web-Applikationen!
+            </p>
+            <table>
+                <thead>
+                <tr>
+                    <th>Leistung</th>
+                    <th>Einzelpreis</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Stundensatz Beratung</td>
+                    <td>&euro; 100,--</td>
+                </tr>
+                <tr>
+                    <td>Tagessatz Beratung</td>
+                    <td>&euro; 600,--</td>
+                </tr>
+                <tr>
+                    <td>Homepage Baukasten pro Monat</td>
+                    <td>&euro; 1.000,--</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+      </div>
       <footer>
         <nav>
           <ul>
